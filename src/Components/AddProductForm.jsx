@@ -36,7 +36,7 @@ export const AddProductForm = ({products,setProducts}) => {
     }
   return (
     <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg border border-gray-200">
-      <h2 className="text-2xl font-semibold text-gray-700 text-center mb-4">Add New Product</h2>
+      <h2 className="text-2xl text-green-500 font-semibold text-gray-700 text-center mb-4">Add New Product</h2>
       <form className="space-y-4" onSubmit={handleSubmit}>
 
       <div>
