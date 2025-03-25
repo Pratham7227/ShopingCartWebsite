@@ -116,7 +116,7 @@ export const Products = ({setCartArray}) => {
             </p>
             <p className="text-green-600 font-medium">${singleProduct.price}</p>
             <button
-              className="mt-4 bg-purple-500 hover:bg-purple-600 text-white font-semibold py-2 px-4 rounded-md w-full transition duration-300"
+              className="mt-4 bg-green-500 hover:bg-blue-600 text-white font-semibold py-2 px-4 rounded-md w-full transition duration-300"
               onClick={() => handleAddButton(singleProduct)}
             >
               Add To Cart
