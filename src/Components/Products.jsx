@@ -107,7 +107,7 @@ export const Products = ({setCartArray}) => {
               className="w-full h-40 object-cover rounded-lg mb-3"
               alt={singleProduct.name}
             />
-            <p className="text-gray-600 text-sm">ID: {singleProduct.id}</p>
+            <p className="text-gray-600 text-sm bg-red-200">ID: {singleProduct.id}</p>
             <h2 className="text-lg font-semibold text-gray-900 text-center">
               {singleProduct.name}
             </h2>
