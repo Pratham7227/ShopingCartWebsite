@@ -10,7 +10,7 @@ export const NavBar = ({cartArray}) => {
          <p className={`text-yellow-500 absolute right-5 top-2 font-bold  z-50 bg-white rounded-full w-[30px] text-center ${cartArray.length > 0 ? 'blink' : ''}`}>
         {cartArray.length}
          </p> 
-               <h1 className="text-center text-3xl md:text-4xl font-bold  text-gray-800 cursor-pointer" onClick={()=>navigate('/')}>
+               <h1 className="text-center text-3xl md:text-4xl font-bold  text-purple-700 cursor-pointer" onClick={()=>navigate('/')}>
                  List Of Products
                </h1>
                <FaCartShopping className="text-4xl" onClick={()=>navigate('/cart')}/>
