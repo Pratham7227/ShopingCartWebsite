@@ -106,6 +106,8 @@ export const AddProductForm = ({products,setProducts}) => {
           Add Product
         </button>
       </form>
+      
+      {/* <hr className='border-t border-gray-800'/> */}
     </div>
   );
 };

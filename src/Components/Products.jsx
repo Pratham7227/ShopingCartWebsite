@@ -94,7 +94,8 @@ export const Products = ({setCartArray}) => {
     <div className="container mx-auto px-4  ">
      
         <AddProductForm products={products} setProducts={setProducts}/>
-      
+        <br />
+        <hr className='border-t border-2 border-gray-800'/>
       
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-5 ">
         {products.map((singleProduct,index) => (
