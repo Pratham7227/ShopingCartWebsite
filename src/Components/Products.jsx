@@ -97,6 +97,9 @@ export const Products = ({setCartArray}) => {
         <br />
         <hr className='border-t border-2 border-gray-800'/>
       
+      
+      <p className="text-purple-700 font-bold underline text-3xl">Product List</p>
+
       <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mt-5 ">
         {products.map((singleProduct,index) => (
           <div
