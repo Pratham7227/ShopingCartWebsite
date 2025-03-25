@@ -37,7 +37,10 @@ export const AddProductForm = ({products,setProducts}) => {
     }
   return (
     <div className="max-w-lg mx-auto p-6 bg-white shadow-lg rounded-lg border border-gray-200">
-      <h2 className="text-2xl font-semibold text-gray-700 text-center mb-4">Add New Product</h2>
+      <div className='flex justify-center items-center gap-2 mb-4'>
+      <h2 className="text-2xl font-semibold text-gray-700 text-center">Add New Product</h2>
+      <IoAddCircle className='text-2xl'/>
+      </div>
       <form className="space-y-4" onSubmit={handleSubmit}>
 
       <div>
